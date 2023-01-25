@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascrip events</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var buttonSave = (document.getElementById("save").onclick =
+          function () {
+            alert("save this");
+          });
+        let buttonSaveNew = document.querySelector("#save");
+
+        buttonSave.addEventListener("click", () => {
+          document.querySelector("p").innerHTML = "<h3>JAVASCRIP</h3>";
+        });
+
+        buttonSaveNew.addEventListener("click", () => {
+          document.querySelector("p").innerHTML = "<h3>NOUP</h3>";
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <p onmouseover="this.style.color='red'">please click</p>
+      <p onmouseout="this.style.color='blue'"></p>
+      <button id="save" onmouseover="this.style.backgroundColor='yellow'">
+        Save
+      </button>
+    </div>
+  </body>
+  <!--   <script>
+    //alert("hello world 2");
+  </script>
+  <script>
+    //alert('Hello')
+    /*comento multi  linea*/
+    document.getElementById("save").onclick = function saveThis() {
+      alert("save this");
+    };
+  </script> -->
+</html>

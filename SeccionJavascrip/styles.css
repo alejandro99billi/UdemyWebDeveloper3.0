@@ -1,0 +1,17 @@
+.container{
+    width: 350px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    height: 300px;
+    border: solid 2px yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
