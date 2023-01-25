@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>WEB With Style</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style type="text/css">
+      h2 {
+        color: red;
+        font-size: 300%;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        background-color: azure;
+      }
+
+      h1 {
+        color: pink;
+      }
+
+      .red {
+        color: red;
+        font-size: 200%;
+      }
+
+      #green {
+        color: green;
+        clear: both;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      #firts {
+        background-color: aqua;
+        display: block;
+        justify-content: center;
+        width: 200px;
+        /* float: left; */
+        /*      position: relative;
+        left: 100px;
+        top: 100px;
+        z-index: 1; */
+        /* position: absolute; */
+        margin: 100px 50px 20px 10px;
+      }
+      #yellow {
+        background-color: yellow;
+        width: 100px;
+        /*  z-index: 2;
+        position: relative;
+        opacity: 0.5; */
+        /* float: right; */
+        margin: 200px 200px;
+        padding: 100px 300px;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <div id="firts">
+      <h1 style="font-size: 100%">cool</h1>
+      css inline
+      <p style="color: blue">PRIMA FORMA DI METTERE CSS</p>
+      <p style="font-size: 200%">TRES TRISTRES TIGRES</p>
+    </div>
+
+    <div id="yellow">
+      <span>---------------------------------- </span>
+      <h2>CSS INTERNO</h2>
+      <h2>ALTRO CSS INTERNO</h2>
+      <p class="red">STYLE CSS WITH A CLASS</p>
+    </div>
+
+    <div id="green">
+      <p>TESTO WITH ID DEBO METER EL # IL ID SOLO UNA VOLTA PER PAGINA</p>
+      <p>
+        questa porzione viene solttoliniato
+        <span class="red underline">otro pezzo di texto</span>
+      </p>
+    </div>
+  </body>
+</html>

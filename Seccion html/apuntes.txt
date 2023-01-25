@@ -1,0 +1,26 @@
+<br> para separar algo en un parrafo
+<bold> para hacer algo en negrita
+<strong>
+<i>
+<em>
+<u>
+<ins></ins>
+<superscrip></superscrip>    
+<sup></sup>
+<sub></sub>
+<hr>
+<ol></ol> liste ordinate
+<ul></ul> lista desadorneda
+
+
+placeholder.com per creare le imagine
+
+posiciones :
+relative-->le damos nosotros la posicion  letf :200px por ejemplo
+abosolute-->remane sempre fijo en la prte superior
+fixed--> rimane fisso anche si se scorre la pagina
+
+css reset --> per fare que il sito si veda sempresul boswer
+web safe fonts --> todas las fuentes que podemos encontrar en el boswee
+
+a:hover{}--> pseudo clase para enfocar el underline quando enfoco el link con el mauose
