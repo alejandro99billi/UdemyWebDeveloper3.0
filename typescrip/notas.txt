@@ -1,0 +1,48 @@
+typescrip le agrega mas rigedez que javascrip
+typado estatico c++ c# java conocemos el tipo de dato ejemplo int n =1
+string animal = 'chanchito feliz'
+animal = 12 --> error es de tipo string 
+
+typado dinamico --> python,javascrip
+string animal= 'chanchito'
+animal= 12 
+nos da flexibilidad al momento de programar
+su llamamos un metodo que contiene un valor diverso
+nuestro editor no nos da dar un error
+
+typescrip:
+muestre el mensaje de errorcomo si fuese compilado osea en tiempo real
+el compilador de typescrip transforma el .ts -> tsc y lo transforma .javascrip
+este proceso trasnpilacion --> codigo fuente en un lenguaje similiar es un set de las compilacion
+
+contras:
+-al inicio es el mejor usar javascrip cuando las aplicaciones son pequenas 
+
+para compilar un programa typescrip uso el tsc nomeFile
+
+tsc -init me crea un file de configuracion--> target que version estoy usando 
+dist es una convecion donde el codigo que escupe typescrip se encuetra
+en Emit
+
+configurar el compilador siempre para compilar con tsc
+
+source Map --> como se mapea los archivos de typescrip a javascrip
+
+para usar òe debuger devo indicar el nodejs e deeve crear un launch.json
+agregando esta linea  "preLaunchTask": "tsc: build - tsconfig.json",
+
+tipo de typescrip
+number
+string
+any 
+unknown
+never
+arrays
+tuplas
+Enums
+
+tipos inferidos --> ya sabe que variable es esta
+
+ "noImplicitAny": true, --> el compilador no permite tipos any
+
+ .map me permite iterar en un array y aplicarle una funcion
